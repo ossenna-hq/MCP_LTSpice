@@ -1,0 +1,11 @@
+# Copy this table into a trusted circuit workspace's .codex/config.toml.
+# Keep ltspice-mcp.toml in that workspace and do not commit private paths.
+[mcp_servers.ltspice]
+command = "ltspice-mcp"
+args = ["--config", "ltspice-mcp.toml"]
+cwd = "."
+startup_timeout_sec = 30
+tool_timeout_sec = 300
+enabled = true
+required = false
+default_tools_approval_mode = "writes"

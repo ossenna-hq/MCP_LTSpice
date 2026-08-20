@@ -1,3 +1,9 @@
+> **Repository provenance:** this public integration fork is based on upstream
+> [`cognitohazard/ltspice-mcp`](https://github.com/cognitohazard/ltspice-mcp)
+> tag `v0.5.0` (commit `4dc456000e1a436ef37a585c23ab35954a8caf04e`).
+> The additions in this branch provide installation-independent deployment
+> examples and documentation. No upstream server source has been modified.
+
 # ltspice-mcp
 
 > **Work in progress.** Core functionality is usable but expect rough edges and breaking changes.

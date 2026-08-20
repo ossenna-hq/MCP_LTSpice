@@ -1,0 +1,8 @@
+# Example for a bridge listening only on the local machine.
+[mcp_servers.ltspice]
+url = "http://127.0.0.1:8765/mcp"
+startup_timeout_sec = 30
+tool_timeout_sec = 300
+enabled = true
+required = false
+default_tools_approval_mode = "writes"
